@@ -1,0 +1,31 @@
+.tablecover{
+    display: flex;
+    position: relative;
+    top:200px;
+    justify-content: center;
+    margin: auto;
+}
+
+.mytable{
+    border:solid 2px rgb(85, 87, 93);
+    width: 950px;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: rgb(209, 209, 201);
+    box-shadow: 3px 5px 5px 0px;
+    cursor: pointer;
+}
+
+th, td{
+    border: 1px solid rgb(147, 154, 162);
+    padding: 8px;
+    height: 40px;
+ }
+ th{
+    font-size: 20px;
+ }
+
+td{
+    font-size: 20px;
+    color: rgb(73, 72, 80);
+}

@@ -1,0 +1,75 @@
+.login-block{
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px  rgb(83, 84, 90);
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 120px;
+    margin: auto;
+    background-color: rgb(83, 84, 90);   
+}
+
+.form-title{
+    text-align: center;
+    border: 2px;
+    background-color:aqua;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.user{
+    margin-top: 50px;
+}
+
+.logo-place{
+    margin: 15px;
+    height: 30px;
+    font-size: larger;
+    text-align: justify;
+    border-radius: 10px;
+    width: 250px;
+    background-color: rgb(122, 156, 156);
+    border: none;
+}
+
+.check{
+    display: flex;
+    color: aqua;
+    margin-left: 60px;
+    margin-right: 40px;
+    font-size: smaller;
+}
+
+.forgot{
+    margin-left: 25px;
+    color:  aqua;  
+}
+
+.log-bt{
+    background-color:  aqua;
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.log-bt:focus{
+    background-color: rgb(26, 255, 0);
+}
+
+.log-bt:hover{
+    background-color: rgb(26, 255, 0);
+}
+
+.link-col{
+    color:  aqua;
+    font-size: smaller; 
+}
